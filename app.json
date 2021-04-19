@@ -1,0 +1,26 @@
+{
+    "name": "xray-lo-xtls",
+    "description": "only deploy xray xtls-direct on heroku",
+    "keywords": ["vmess vless xtls-rprx-direct"],
+    "env": {
+        "AUUID": {
+            "description": "UUID URL: https://www.uuidgenerator.net",
+            "value": "https://raw.githubusercontent.com/EliasMusk/xrayheroku/master/etc/UUID"
+        },
+        "CADDYIndex": {
+            "description": "CADDY View",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "CONFIGCADDY": {
+            "description": "CADDY CONFIG",
+            "value": "https://raw.githubusercontent.com/EliasMusk/xrayheroku/master/etc/caddy.json"
+        },
+        "CONFIGXRAY": {
+            "description": "XRAY CONFIG",
+            "value": "https://raw.githubusercontent.com/EliasMusk/xrayheroku/master/etc/xray.json"
+        }
+    },
+    "website": "https://github.com/EliasMusk/xrayheroku",
+    "repository": "https://github.com/EliasMusk/xrayheroku",
+    "stack": "container"
+}
